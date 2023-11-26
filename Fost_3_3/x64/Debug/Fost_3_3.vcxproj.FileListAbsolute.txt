@@ -1,0 +1,3 @@
+C:\Users\kiril\Desktop\Fost_3_3\Fost_3_3\x64\Debug\Fost_3_3.vcxproj.AssemblyReference.cache
+C:\Users\kiril\Desktop\Fost_3_3\Fost_3_3\x64\Debug\Fost33.MyForm.resources
+C:\Users\kiril\Desktop\Fost_3_3\Fost_3_3\x64\Debug\Fost_3_3.vcxproj.GenerateResource.cache
