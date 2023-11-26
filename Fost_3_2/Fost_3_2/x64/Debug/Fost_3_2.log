@@ -1,8 +1,0 @@
-﻿  MyForm.cpp
-C:\Users\kiril\Desktop\Fost_3\Fost_3_2\Fost_3_2\MyForm.h(261,47): warning C4101: a: неиспользованная локальная переменная
-C:\Users\kiril\Desktop\Fost_3\Fost_3_2\Fost_3_2\MyForm.h(261,29): warning C4101: t: неиспользованная локальная переменная
-  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
-  Создание кода...
-C:\Users\kiril\Desktop\Fost_3\Fost_3_2\Fost_3_2\MyForm.h(276): warning C4700: использована неинициализированная локальная переменная "Vt"
-  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
-  Fost_3_2.vcxproj -> C:\Users\kiril\Desktop\Fost_3\Fost_3_2\x64\Debug\Fost_3_2.exe
