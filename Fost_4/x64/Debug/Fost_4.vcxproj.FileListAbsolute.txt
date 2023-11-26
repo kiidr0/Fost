@@ -1,0 +1,6 @@
+C:\Users\kiril\Desktop\Fost_4\Fost_4\x64\Debug\Fost_4.vcxproj.AssemblyReference.cache
+C:\Users\kiril\Desktop\Fost_4\Fost_4\x64\Debug\Fost4.MyForm.resources
+C:\Users\kiril\Desktop\Fost_4\Fost_4\x64\Debug\Fost_4.vcxproj.GenerateResource.cache
+C:\Users\kiril\Desktop\ФОСТ\Fost_4\Fost_4\x64\Debug\Fost_4.vcxproj.AssemblyReference.cache
+C:\Users\kiril\Desktop\ФОСТ\Fost_4\Fost_4\x64\Debug\Fost4.MyForm.resources
+C:\Users\kiril\Desktop\ФОСТ\Fost_4\Fost_4\x64\Debug\Fost_4.vcxproj.GenerateResource.cache
