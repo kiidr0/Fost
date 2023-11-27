@@ -13,7 +13,7 @@ namespace Fost4 {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -22,13 +22,13 @@ namespace Fost4 {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~MyForm()
 		{
@@ -52,14 +52,14 @@ namespace Fost4 {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -82,11 +82,11 @@ namespace Fost4 {
 			// chart1
 			// 
 			chartArea1->AxisX->Minimum = 0;
-			chartArea1->AxisX->Title = L"Время t";
+			chartArea1->AxisX->Title = L"Г‚Г°ГҐГ¬Гї t";
 			chartArea1->AxisX->TitleFont = (gcnew System::Drawing::Font(L"Times New Roman", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			chartArea1->AxisY->Minimum = 0;
-			chartArea1->AxisY->Title = L"Скорость V";
+			chartArea1->AxisY->Title = L"Г‘ГЄГ®Г°Г®Г±ГІГј V";
 			chartArea1->AxisY->TitleFont = (gcnew System::Drawing::Font(L"Times New Roman", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			chartArea1->Name = L"ChartArea1";
@@ -109,17 +109,17 @@ namespace Fost4 {
 			title1->Font = (gcnew System::Drawing::Font(L"Times New Roman", 10, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			title1->Name = L"Title1";
-			title1->Text = L"График зависимости V от t";
+			title1->Text = L"ГѓГ°Г ГґГЁГЄ Г§Г ГўГЁГ±ГЁГ¬Г®Г±ГІГЁ V Г®ГІ t";
 			this->chart1->Titles->Add(title1);
 			// 
 			// chart2
 			// 
 			chartArea2->AxisX->Minimum = 0;
-			chartArea2->AxisX->Title = L"Время t";
+			chartArea2->AxisX->Title = L"Г‚Г°ГҐГ¬Гї t";
 			chartArea2->AxisX->TitleFont = (gcnew System::Drawing::Font(L"Times New Roman", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			chartArea2->AxisY->Minimum = 0;
-			chartArea2->AxisY->Title = L"Высота H";
+			chartArea2->AxisY->Title = L"Г‚Г»Г±Г®ГІГ  H";
 			chartArea2->AxisY->TitleFont = (gcnew System::Drawing::Font(L"Times New Roman", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			chartArea2->Name = L"ChartArea1";
@@ -142,7 +142,7 @@ namespace Fost4 {
 			title2->Font = (gcnew System::Drawing::Font(L"Times New Roman", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			title2->Name = L"Title1";
-			title2->Text = L"График зависимости H от t";
+			title2->Text = L"ГѓГ°Г ГґГЁГЄ Г§Г ГўГЁГ±ГЁГ¬Г®Г±ГІГЁ H Г®ГІ t";
 			this->chart2->Titles->Add(title2);
 			// 
 			// button1
@@ -151,7 +151,7 @@ namespace Fost4 {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(300, 30);
 			this->button1->TabIndex = 9;
-			this->button1->Text = L"Вычислить";
+			this->button1->Text = L"Г‚Г»Г·ГЁГ±Г«ГЁГІГј";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -161,7 +161,7 @@ namespace Fost4 {
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(302, 30);
 			this->button2->TabIndex = 10;
-			this->button2->Text = L"Очистить";
+			this->button2->Text = L"ГЋГ·ГЁГ±ГІГЁГІГј";
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
@@ -183,11 +183,11 @@ namespace Fost4 {
 
 		}
 #pragma endregion
-		const double p0 = 1.27; // плотность вблизи поверхности Земли
-		const double beta = -2.3026; // бета из методички
-		const double g = 9.8; // коэф. свободного падения
-		const double v_ = 7800;	// первая космическая скорость
-		const double h_ = 17000; // 17км из методички
+		const double p0 = 1.27; // ГЇГ«Г®ГІГ­Г®Г±ГІГј ГўГЎГ«ГЁГ§ГЁ ГЇГ®ГўГҐГ°ГµГ­Г®Г±ГІГЁ Г‡ГҐГ¬Г«ГЁ
+		const double beta = -2.3026; // ГЎГҐГІГ  ГЁГ§ Г¬ГҐГІГ®Г¤ГЁГ·ГЄГЁ
+		const double g = 9.8; // ГЄГ®ГЅГґ. Г±ГўГ®ГЎГ®Г¤Г­Г®ГЈГ® ГЇГ Г¤ГҐГ­ГЁГї
+		const double v_ = 7800;	// ГЇГҐГ°ГўГ Гї ГЄГ®Г±Г¬ГЁГ·ГҐГ±ГЄГ Гї Г±ГЄГ®Г°Г®Г±ГІГј
+		const double h_ = 17000; // 17ГЄГ¬ ГЁГ§ Г¬ГҐГІГ®Г¤ГЁГ·ГЄГЁ
 		const double c = 0.045;
 
 		double f(double t, double k) {
@@ -219,7 +219,7 @@ namespace Fost4 {
 			double p = 0.5 * c * p0 * S * v_ * t_ / m0;
 			double k = mEnd / m0;
 
-			do
+			do // РїРѕС„РёРєСЃРёС‚СЊ a = 0
 			{
 				nextV = V + dt * 0.5 * abs(Vdt(t, a, b, p, H, V, k) + Vdt(t, a, b, p, H, V + dt * Vdt(t, a, b, p, H, V, k), k));
 				nextH = H + ee * V * dt;
@@ -228,7 +228,7 @@ namespace Fost4 {
 				V = nextV;
 				H = nextH;
 				t += dt;
-			} while (V <= 1);
+			} while (V <= 1); // t <= 1
 		}
 		private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
 				chart1->Series["Series1"]->Points->Clear();
